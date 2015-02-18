@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Working with parquet files.
+tags: [parquet]
 ---
 
 For working with parquet files you can use the [parquet-tools](https://github.com/Parquet/parquet-mr/tree/master/parquet-tools) from the parquet project.

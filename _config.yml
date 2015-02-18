@@ -6,7 +6,7 @@ relative_permalinks: true
 title:            Data Engineering Cookbook
 tagline:          The Jekyll Butler
 url:              http://getpoole.com
-paginate:         1
+paginate:         2
 baseurl:          /
 author:
   name:           Helmut Zechmann

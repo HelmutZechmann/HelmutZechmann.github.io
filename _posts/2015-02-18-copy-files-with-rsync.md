@@ -7,6 +7,8 @@ tags: [rsync]
 
 To sync a folder between two machines you can use rsync. The following command will copy the contents of the folder *source* to the folder *target-folder* on the remote host using ssh:
 
+---
+
 ```rsync -avz source user@host:target-folder```
 
 This command uses the following options:

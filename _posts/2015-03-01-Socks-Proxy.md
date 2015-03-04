@@ -45,7 +45,9 @@ Use firefox with [FoxyProxy](https://addons.mozilla.org/de/firefox/addon/foxypro
 
 ### HDFS access
 
-Add the follwing configuration to your hdfs-site.xml:
+To access hdfs from your developer machine you need a local copy of your hadoop distribution. Configure it to point to your cluster (e.g. download hadoop client config from cloudera manager).
+
+Then add the follwing configuration to your hdfs-site.xml:
 
 
 ```xml
@@ -57,6 +59,13 @@ Add the follwing configuration to your hdfs-site.xml:
     <name>hadoop.rpc.socket.factory.class.default</name>
     <value>org.apache.hadoop.net.SocksSocketFactory</value>
   </property>
+```
+
+Now you can do things such as 
+
+```bash
+hdfs dfs -ls
+hdfs dfs -put somfile somewhere
 ```
 
 Maybe you also have to add the namenode to your /etc/hosts.

@@ -4,9 +4,9 @@ relative_permalinks: true
 
 # Setup
 title:            Data Engineering Cookbook
-tagline:          The Jekyll Butler
-url:              http://getpoole.com
-paginate:         2
+tagline:          Recipes for Data Engineers
+url:              http://www.helmutzechmann.com
+paginate:         3
 baseurl:          /
 author:
   name:           Helmut Zechmann

@@ -6,9 +6,9 @@ tags: [hadoop,resourcemanager,ssh,socks]
 
 ## Easy SSH access
 
-Fist you neeed to setup passwordless ssh access using a public key. Refer to [this guide](http://www.thegeekstuff.com/2008/11/3-steps-to-perform-ssh-login-without-password-using-ssh-keygen-ssh-copy-id/) to setup ssh access using ssh keys.
+First you need to setup passwordless ssh access using a public key. Refer to [this guide](http://www.thegeekstuff.com/2008/11/3-steps-to-perform-ssh-login-without-password-using-ssh-keygen-ssh-copy-id/) to setup ssh access using ssh keys.
 
-To enable easy ssh access to a machine (this is not limited to hadoop), add a section like this to your ~/.ssh/conig
+To enable easy ssh access to a machine (this is not limited to hadoop), add a section like this to your ~/.ssh/config
 
 ```bash
 # demoproject staging cluster
@@ -49,7 +49,7 @@ Use firefox with [FoxyProxy](https://addons.mozilla.org/de/firefox/addon/foxypro
 
 To access hdfs from your developer machine you need a local copy of your hadoop distribution. Configure it to point to your cluster (e.g. download hadoop client config from cloudera manager).
 
-Then add the follwing configuration to your hdfs-site.xml:
+Then add the following configuration to your hdfs-site.xml (Thanks to [Stephan Friese](https://www.xing.com/profile/Stephan_Friese4) for showing me this):
 
 
 ```xml
@@ -67,7 +67,7 @@ Now you can do things such as
 
 ```bash
 hdfs dfs -ls
-hdfs dfs -put somfile somewhere
+hdfs dfs -put somefile somewhere
 ```
 
 Maybe you also have to add the namenode to your /etc/hosts.

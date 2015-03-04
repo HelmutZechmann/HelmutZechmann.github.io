@@ -9,7 +9,9 @@ To sync a folder between two machines you can use rsync. The following command w
 
 ---
 
-```rsync -avz source user@host:target-folder```
+```bash
+rsync -avz source user@host:target-folder
+```
 
 This command uses the following options:
 

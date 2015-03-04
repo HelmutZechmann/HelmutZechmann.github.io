@@ -6,6 +6,8 @@ tags: [hadoop,resourcemanager,ssh,socks]
 
 ## Easy SSH access
 
+Fist you neeed to setup passwordless ssh access using a public key. Refer to [this guide](http://www.thegeekstuff.com/2008/11/3-steps-to-perform-ssh-login-without-password-using-ssh-keygen-ssh-copy-id/) to setup ssh access using ssh keys.
+
 To enable easy ssh access to a machine (this is not limited to hadoop), add a section like this to your ~/.ssh/conig
 
 ```bash

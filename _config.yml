@@ -13,6 +13,12 @@ author:
   url:            https://twitter.com/hzechmann
   email:          markdotto@gmail.com
 
+
+markdown: redcarpet
+
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
 # Custom vars
 version:          1.0.0
 github:

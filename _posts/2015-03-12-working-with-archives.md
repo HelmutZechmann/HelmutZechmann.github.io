@@ -8,7 +8,7 @@ Here I collect some useful tools for working with zip/jar/gz files. As always: j
 
 ## List the contents of an archive
 
-To list the contents of our jar archive we type the following:
+To list the contents of a jar/war/zip archive we type the following:
 
 ```bash
 jar tf frontend.war
@@ -16,7 +16,7 @@ jar tf frontend.war
 
 ## Extract a file
 
-To extract the config file from the archive, type
+To extract a file from the archive, type something like
 
 ```bash
 jar xf frontend.war config/app-conf.xml

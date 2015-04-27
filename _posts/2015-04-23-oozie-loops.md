@@ -8,9 +8,15 @@ The oozie workflow scheduler provides a language for defining workflows as direc
 
 The basic idea is that a workflow calls itself again using a sub-workflow action. I'll illustrate that in a small example. In the example we process a list of files with configurable length. The files need to be specified as input_file_1, input_file_2, ....
 
+### Credits
+
+This is not my own idea. The technique presented here is described in a [post by Robert Kantner on the cdh-users mailing list](https://groups.google.com/a/cloudera.org/forum/#!searchin/cdh-user/oozie$20loop$20subworkflow/cdh-user/j1QQFsz9Z_w/dLXlL8EKnKIJ). 
+
 ### Caveat Emptor
 
 Before I start I would like to issue a warning: As it is always the case with recursion you have to take care that your stopping condition for the recursion is implemented correctly. Else you will end up with blocking the whole cluster with an infinite number of recursively created workflow jobs.
+
+As of oozie version 4.1.0 the maximum sub-worfklow depth is limited to 50 as decribed in [OOZIE-1550](https://issues.apache.org/jira/browse/OOZIE-1550).
 
 ### Recursive Call
 

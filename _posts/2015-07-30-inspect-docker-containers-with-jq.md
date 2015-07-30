@@ -4,7 +4,7 @@ title: Inspect Docker Containers With JQ
 tags: [docker, jq]
 ---
 
-The [docker inspect](https://docs.docker.com/reference/commandline/inspect/) command provides useful information about docker containers. But the the huge output of this command can be quite confusing. Since the output comes in json format, the [jq-tool]() can be used to get an overview of the output and pick interesting parts.
+The [docker inspect](https://docs.docker.com/reference/commandline/inspect/) command provides useful information about docker containers. But the the huge output of this command can be quite confusing. Since the output comes in json format, the [jq-tool](http://stedolan.github.io/jq/) can be used to get an overview of the output and pick interesting parts.
 
 ## Show all keys in the output:
 

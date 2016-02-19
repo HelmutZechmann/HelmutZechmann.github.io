@@ -61,6 +61,11 @@ Then add the following configuration to your hdfs-site.xml (Thanks to [Stephan F
     <name>hadoop.rpc.socket.factory.class.default</name>
     <value>org.apache.hadoop.net.SocksSocketFactory</value>
   </property>
+  <property>
+    <name>dfs.client.use.legacy.blockreader</name>
+    <value>true</value>
+  </property>
+
 ```
 
 Now you can do things such as 

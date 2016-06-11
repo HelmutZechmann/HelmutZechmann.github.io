@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Principles Of Big Data - Part 1&colon; Your Input Data Is Immutable
+title: Principles Of Big Data - Part 1&#58; Your Input Data Is Immutable
 tags: [big data]
 ---
 

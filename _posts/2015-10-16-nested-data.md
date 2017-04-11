@@ -108,23 +108,23 @@ Hive provides some special functions for working with complex data types. The fo
         <td>Returns an unordered array containing the keys of the input map.</td>
     </tr>
     <tr>
-        <td>array&ltt&gt</td>
+        <td>array&lt;&gt;</td>
         <td>sort_array(Array&ltT&gt)</td>
         <td>Sorts the input array in ascending order according to the natural ordering of the array elements and returns it (as of version 0.9.0).</td>
     </tr>
     <tr>
-        <td>array&ltV&gt</td>
-        <td>map_values(Map&ltK.V&gt)</td>
+        <td>array&lt;&gt;</td>
+        <td>map_values(Map&lt;K.V&gt;)</td>
         <td>Returns an unordered array containing the values of the input map.</td>
     </tr>
     <tr>
         <td>boolean</td>
-        <td>array_contains(Array&ltT&gt, value)</td>
+        <td>array_contains(Array&lt;T&gt;, value)</td>
         <td>Returns TRUE if the array contains value.</td>
     </tr>
     <tr>
         <td>int</td>
-        <td>size(Array&ltT&gt)</td>
+        <td>size(Array&lt;T&gt;)</td>
         <td>Returns the number of elements in the map type.</td>
     </tr>
 </table>

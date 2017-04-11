@@ -104,17 +104,17 @@ Hive provides some special functions for working with complex data types. The fo
     </tr>
     <tr>
         <td>array&lt;K&gt;</td>
-        <td>map_keys(Map&lt;K.V&gt;)</td>
+        <td>map_keys(Map&lt;K, V&gt;)</td>
         <td>Returns an unordered array containing the keys of the input map.</td>
     </tr>
     <tr>
-        <td>array&lt;&gt;</td>
-        <td>sort_array(Array&ltT&gt)</td>
+        <td>array&lt;T&gt;</td>
+        <td>sort_array(Array&lt;T&gt;)</td>
         <td>Sorts the input array in ascending order according to the natural ordering of the array elements and returns it (as of version 0.9.0).</td>
     </tr>
     <tr>
-        <td>array&lt;&gt;</td>
-        <td>map_values(Map&lt;K.V&gt;)</td>
+        <td>array&lt;V&gt;</td>
+        <td>map_values(Map&lt;K, V&gt;)</td>
         <td>Returns an unordered array containing the values of the input map.</td>
     </tr>
     <tr>
